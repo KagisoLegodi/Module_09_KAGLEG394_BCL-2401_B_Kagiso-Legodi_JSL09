@@ -11,7 +11,7 @@ document.getElementById("author").textContent = `By: ${data.user.name}`
 //     })
 
 
-const res = await fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
+/* const res = await fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
 if (!res.ok) {
     throw Error("Something went wrong")
 }
@@ -47,4 +47,4 @@ navigator.geolocation.getCurrentPosition(async position => {
         <p class="weather-city">${data.name}</p>
     `
         // .catch(err => console.error(err))
-});
+}); */
